@@ -1,0 +1,29 @@
+# ===============================
+# .gitignore for Python ML Project
+# ===============================
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore logs
+*.log
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Ignore large datasets (optional — uncomment if you don’t want to push CSVs)
+# *.csv
+
+# Ignore VSCode project settings (if you use it)
+.vscode/
